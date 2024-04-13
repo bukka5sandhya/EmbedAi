@@ -1,0 +1,404 @@
+.bg-container{
+    background-color: rgb(223, 220, 220);
+    background-size: cover;
+    height:130vh;
+}
+.side-bar-container-search{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-bar{
+    border-radius: 16px;
+    border:none;
+    height:50px;
+    width:400px;    
+    font-family:'Roboto';
+    font-size:25px;
+    background: rgb(179, 173, 173);
+    color:black;
+    padding:10px;
+    margin-top:20px;
+    margin-right:20px;
+
+    
+}
+.menu-icon{
+    height:60px;
+    width:60px;
+    
+}
+.search-icon{
+    height:15px;
+    width:15px;
+    
+}
+.user-input{
+    background: transparent;
+    color: #ffffff;
+    border-width:0px;
+    padding-left:5px;
+    border:none;
+}
+.side-container{
+    display:flex;
+    flex-direction: column;
+   align-items: flex-start;
+   height:100vh;
+   background-color: #ffffff;
+   width:400px;
+   margin:0px;
+}
+
+
+.cards-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.card1{
+    background-image: url("https://i.ibb.co/DWc4s31/images.jpg" );
+    height:50vh;
+    width:100%;
+    border-radius:20px;
+    animation-duration:4s;
+    background-size: cover;
+    animation:animate 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   margin-left:300px;
+   margin-right:10px;
+   margin-top:10px;
+   
+
+}
+
+@keyframes animate {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+.card1-text{
+    font-size:15px;
+    color:#ffffff;
+    padding:20px;
+
+}
+.card1-heading{
+    font-size:30px;
+    color:#ffffff;
+    padding:20px;
+}
+.sub-card1{
+    width:200px;
+    height:100px;
+    border-radius:20px;
+    background-color: darkgray;
+    animation-duration:4s;
+    animation:animate 3s linear infinite;
+   filter: blur(1px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+
+}
+.three-empty-cards-container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 300px;
+    justify-content: flex-start;
+    
+}
+.empty-card1{
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:25vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    animation:animates 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   animation-duration:4s;
+}
+@keyframes animates {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+
+.empty-card2{
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:25vh;
+    margin-left:10px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    animation:animatess 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   animation-duration:4s;
+}
+@keyframes animatess {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+.empty-card3{
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:25vh;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    animation:animatesss 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   animation-duration:4s;
+}
+@keyframes animatesss {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+.empty-inner-card1{
+    display: flex;
+    flex-direction: row;
+
+}
+.column-container{
+    background-color: rgb(52, 145, 226);
+    height:20vh;
+    margin:5px;
+}
+.try-these-heading{
+   
+    font-size:20px;
+    color:#323f4b;
+    margin-left: 300px;
+    margin-top:10px;
+}
+.three-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 300px;
+}
+.first-row-container{
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:15vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+}
+.second-row-container{
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:15vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    
+}
+.third-row-container{
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:15vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+   
+}
+.full-container{
+    display: flex;
+    flex-direction: row;
+}
+.image1{
+    width:60px;
+    height:80px;
+   
+    margin:10px;
+}
+
+.hyper-text{
+    font-size:15px;
+    margin:10px;
+
+}
+.practice-heading{
+    font-size:20px;
+    
+}
+.copy-three-empty-cards-container{
+    display:flex;
+    flex-direction: row;
+    margin-left: 300px;
+    justify-content: flex-start;
+    
+}
+.copy-empty-card1{
+    display:flex;
+    flex-direction: row;
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:40vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+   
+    animation:animates 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   animation-duration:4s;
+}
+@keyframes animates {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+.copy-empty-card2{
+    display:flex;
+    flex-direction: row;
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:40vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+    
+    animation:animates 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   animation-duration:4s;
+}
+@keyframes animates {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+.copy-empty-card3{
+    display:flex;
+    flex-direction: row;
+    background-color: lightgray;
+    background-size: cover;
+    width:400px;
+    height:40vh;
+    margin:10px;
+    margin-top:20px;
+    border-radius: 20px;
+   
+    animation:animates 3s linear infinite;
+   filter: blur(2px);
+   transition: opacity 5s ease-in-out cubic-bezier(0.1,0.7,1.0,0.1);
+   animation-duration:4s;
+}
+@keyframes animates {
+    0%{
+        filter:hue-rotate(1deg)
+    }
+    100%{
+        filter:hue-rotate(160deg)
+    }
+}
+.featured-image1{
+    height:140px;
+    width:80px;
+    margin:30px;
+   background-color: #ffffff;
+}
+.comment-image{
+    height:30px;
+    width:30px;margin:10px;
+    background: transparent;
+}
+.m-container{
+    display: flex;
+    flex-direction: row;
+}
+.boxes-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top:10px;
+}
+.box1{
+    background-color:black;
+    height:50px;
+    width:100px;
+    border-radius: 12px;
+    margin:10px;
+}
+.box1-heading{
+    color:#ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+.box2{
+    background-color:lightgray;
+    height:50px;
+    width:250px;
+    border-radius: 12px;
+    margin:10px;
+}
+.box2-heading{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+}
+.box3{
+    background-color:lightgray;
+    height:50px;
+    width:100px;
+    border-radius: 12px;
+    margin:10px;
+}
+.box3-heading{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.like-image{
+    margin:10px;
+    width:20px;
+    height:30px;
+}
+.featured-image2{
+    height:140px;
+    width:80px;
+    margin:30px;
+   
+}
